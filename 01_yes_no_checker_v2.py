@@ -31,4 +31,4 @@ def yes_no_checker(question):
 
 
 # Main Routine ---------------------------------------------------------
-initial_question = yes_no_checker("Have you used this solver before? ")
+initial_question = yes_no_checker("Have you used this Caesar Cipher solver before? ")
