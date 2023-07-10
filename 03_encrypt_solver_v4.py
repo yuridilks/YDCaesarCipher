@@ -3,6 +3,7 @@ Component One: Encrypt Solver
 v1 - trialling this component
 v2 - adding user input
 v3 - adding aesthetics
+v4 - creating character range
 
 Author - Yuri Dilks
 CC YD 2023
