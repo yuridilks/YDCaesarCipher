@@ -10,7 +10,7 @@ CC YD 2023
 # Functions
 def decryption():
     # Create decorative line variables
-    # Ask users to enter a message to encrypt
+    # Ask users to enter a message to decrypt
     message = input("Enter a Message to Decrypt: ").lower()
     shift = -3
     # Placeholder for result
@@ -21,7 +21,7 @@ def decryption():
         if char.isalpha():
             # Change the characters in the message into the ASCII code
             decrypt_code = ord(char)
-            # Creating the encrypted characters by shifting the characters
+            # Creating the decrypted characters by shifting the characters
             decrypt_code = decrypt_code + shift
 
             new_char = chr(decrypt_code)
