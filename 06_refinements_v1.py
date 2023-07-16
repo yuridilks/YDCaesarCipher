@@ -6,10 +6,6 @@ Author - Yuri Dilks
 CC YD 2023
 """
 import random
-# Creating a character range
-first_char = ord("A")
-last_char = ord("Z")
-char_range = last_char - first_char + 1
 
 
 # Functions  -------------------------------------------------------------------------------------------
@@ -88,6 +84,10 @@ def encryption():
     line_one = ":" * 50
     line_two = "-" * 50
     print(line_one)
+    # Creating a character range
+    first_char = ord("A")
+    last_char = ord("Z")
+    char_range = last_char - first_char + 1
     # Ask users to enter a message to encrypt
     message = input("Enter a Message to Encrypt: ").lower()
     shift_options = [3, 5, 7]
@@ -116,6 +116,10 @@ def decryption():
     line_one = "," * 50
     line_two = "-" * 50
     print(line_one)
+    # Creating a character range
+    first_char = ord("A")
+    last_char = ord("Z")
+    char_range = last_char - first_char + 1
     # Ask users to enter a message to encrypt
     message = input("Enter a Message to Decrypt: ").lower()
     while True:
